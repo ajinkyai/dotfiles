@@ -122,3 +122,6 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/aju/.mujoco/mjpro150/bin
