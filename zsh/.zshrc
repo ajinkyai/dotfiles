@@ -128,3 +128,5 @@ unset __conda_setup
 
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/aju/.mujoco/mjpro150/bin
+export C_INCLUDE_PATH="/home/aju/miniconda3/include:$C_LIBRARY_PATH"
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libGLEW.so
